@@ -8,6 +8,7 @@ pub mod network;
 
 #[cfg(test)]
 mod tests {
+    // test 환경이기 때문에 같은 루트에 있어도 use로 사용해 줘야 한다
     use super::*;
 
     #[test]

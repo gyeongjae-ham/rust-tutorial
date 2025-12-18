@@ -3,7 +3,7 @@ extern crate communicator;
 pub mod a {
     pub mod series {
         pub mod of {
-            pub fn nested_modules()
+            pub fn nested_modules() {}
         }
     }
 }

@@ -2,9 +2,9 @@ pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
 
-mod client;
+pub mod client;
 
-mod network;
+pub mod network;
 
 #[cfg(test)]
 mod tests {
